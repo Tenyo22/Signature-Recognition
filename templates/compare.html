@@ -1,0 +1,26 @@
+{%extends "layout.html"%}
+
+{%block content %}
+<div class="Principal">
+    <h4>Las siguientes firmas a comparar son las siguientes: Are you Sure?</h4>
+    <!-- <h1>hola {{imagen}}</h1> -->
+    <form action="/result" id="main" method="POST" name="sure" enctype="multipart/form-data">
+        <div>
+            <p>Original:</p>
+            <img src={{url_for('static',filename='image/p1.jpg')}}>
+        </div>
+        <br>
+        <div>
+            <p>Intento:</p>
+            <img id="imgPreview" name="garabato" src="" width="250" height="230" alt="Preview">
+            <input type="hidden" name="jsvar" id="jsvar" value="" />
+        </div>
+        
+        <br>
+        <input type="submit" id="yes" name="si" value="Simon">
+        <script src="{{url_for('static', filename='script_compare.js')}}"></script>
+    </form>
+    <h4>{{value}}</h4>
+    
+</div>
+{%endblock%}

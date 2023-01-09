@@ -1,0 +1,13 @@
+{%extends "layout.html"%}
+
+{%block content%}
+<div class="principal">
+    <h1>Bienvenido</h1>
+    <p>Por favor, seleccione la imagen de la firma real</p>
+    <form action="/uploader" method="POST" name="upload_image" type="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" name="upload" value="Subir Imagen">
+    </form>
+
+</div>
+{%endblock%}

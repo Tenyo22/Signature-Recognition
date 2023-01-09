@@ -1,0 +1,16 @@
+{%extends "layout.html"%}
+
+{%block content%}
+<div class="Principal">
+    <h4>Archivo Subido Correctamente</h4>
+    <p>Por favor, firme en el siguiente recuadro</p>
+    <form action="/compare" method="POST" name="compare" enctype="multipart/form-data">
+        <canvas id="canvas"></canvas>
+        <br>
+        <input type="submit" id="btnComparar" name="comparar" value="Comparar">
+        <!-- {%block tail_js%} -->
+        <script src="{{url_for('static', filename='script.js')}}"></script>
+        <!-- {%endblock%} -->
+    </form>
+</div>
+{%endblock%}
