@@ -1,5 +1,6 @@
 # Firma
-Lenguages and Automata II - Final Project
+Lenguages and Automata II - Final Project.
+
 It's necessary to add a image of the original signature on a white background.
 
 The module used is the Structural Similarity Index Measure (SSIM), we use it to measure the similarity between two images.
