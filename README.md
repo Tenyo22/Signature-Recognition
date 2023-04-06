@@ -1,5 +1,5 @@
 # Firma
-Lenguages and Automata II - Final Project.
+Functional Logic Programming - Final Project 8th Semester.
 
 It's necessary to add a image of the original signature on a white background.
 
