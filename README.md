@@ -1,4 +1,4 @@
-# Firma
+# Signature
 Functional Logic Programming - Final Project 7th Semester.
 
 It's necessary to add a image of the original signature on a white background.
